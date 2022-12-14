@@ -9,6 +9,8 @@
 
 <h2 align="center">Live here: https://bloglife.herokuapp.com/ </h2>
 
+https://youtu.be/WCRYBONBPjc
+
 
 BlogLife is a new social blogging platform where anybody can share their views and read other's opinion related to any topic. It is a way to connect with people and to know how the world is thinking.
 BlogLife is created using the MongoDB, Express, React and NodeJS (MERN Stack).
