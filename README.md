@@ -19,3 +19,5 @@ BlogLife is created using the MongoDB, Express, React and NodeJS (MERN Stack).
 
 - [Node.JS](http://nodejs.org/) - Node.JS is used in the backend.
 - [React.JS](https://reactjs.org/) -Frontend library used in the project.
+- [MongoDB ](https://www.mongodb.com/home) -Database to store document-based data.
+- [Express ](https://expressjs.com/) -back end web application framework.
