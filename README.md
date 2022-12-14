@@ -7,7 +7,7 @@
 
 </p>
 
-<h2 align="center">Live here: https://devblogger.herokuapp.com/ </h2>
+<h2 align="center">Live here: https://bloglife.herokuapp.com/ </h2>
 
 ![alt text](https://i.postimg.cc/V6qr3nGV/Capture.png "Screenshot of DevBlogger")
 
