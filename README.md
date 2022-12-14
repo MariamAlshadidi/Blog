@@ -9,7 +9,12 @@
 
 <h2 align="center">Live here: https://bloglife.herokuapp.com/ </h2>
 
-https://youtu.be/WCRYBONBPjc
+
+
+
+<div align="center">
+  <a href="https://youtu.be/WCRYBONBPjc"><img src="https://user-images.githubusercontent.com/87587492/207701984-248195b4-ca6d-41bd-b729-69467d3bba11.jpg" alt="click to the video" height=350px></a>
+</div>
 
 
 BlogLife is a new social blogging platform where anybody can share their views and read other's opinion related to any topic. It is a way to connect with people and to know how the world is thinking.
