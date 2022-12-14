@@ -10,10 +10,8 @@
 <h2 align="center">Live here: https://bloglife.herokuapp.com/ </h2>
 
 
-
-
 <div align="center">
-  <a href="https://youtu.be/WCRYBONBPjc"><img src="https://user-images.githubusercontent.com/87587492/207701984-248195b4-ca6d-41bd-b729-69467d3bba11.jpg" alt="click to the video" height=350px></a>
+  <a href="https://youtu.be/WCRYBONBPjc"><img src="https://user-images.githubusercontent.com/87587492/207702925-ed428f44-3011-4d50-913a-f97c566eeeea.png" alt="click to the video" height=450px></a>
 </div>
 
 
