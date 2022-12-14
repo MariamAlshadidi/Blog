@@ -1,0 +1,108 @@
+.writePage {
+  height: 100vh;
+  margin-top: 35px;
+}
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 10%;
+  width: 70vw;
+  height: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+.fa-plus::before {
+  padding-left: 2px;
+}
+
+.writeFormGroup {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 25vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  background-color: #14bdad;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 70px;
+  margin-right: 10%;
+}
+.writeSubmit:hover {
+  background-color: #101111;
+}
+.singlePostImg {
+  height: 380px;
+}
+.cats {
+  width: 80%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 8%;
+}
+.table {
+  display: flex;
+  justify-self: center;
+  margin: auto;
+}
+.table-group-divider {
+  border-top: 2px solid rgb(223, 222, 222);
+}
+input {
+  margin-right: 3px;
+}
+@media (max-width: 767px) {
+  .write {
+    padding-top: 30px;
+  }
+  .writePage {
+    position: relative;
+  }
+  .writeSubmit {
+    position: absolute;
+    bottom: -9%;
+    margin-left: 10%;
+    z-index: 986;
+  }
+}

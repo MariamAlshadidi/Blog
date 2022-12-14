@@ -1,0 +1,14 @@
+.notFound{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;   
+}
+
+.msg{
+    font-size: 25px;
+    color: rgb(216, 57, 57);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}

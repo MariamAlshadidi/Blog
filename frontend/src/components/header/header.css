@@ -1,0 +1,60 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #444;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 10%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 2%;
+  font-size: 80px;
+  z-index: 898;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+  margin-bottom: 50px;
+  position: relative;
+}
+.top-cats {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(211, 210, 210);
+  border-bottom: 1px solid rgb(211, 210, 210);
+  width: 85%;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+button {
+  margin: 10px;
+}
+
+button:hover {
+  color: #555;
+  font-weight: 800;
+}
+.btn:focus,
+.btn:focus-visible,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}

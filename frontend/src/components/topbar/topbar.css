@@ -1,0 +1,126 @@
+nav {
+  top: 0;
+  display: flex !important;
+  position: sticky !important;
+  z-index: 999;
+  width: 100%;
+}
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(8, 8, 8);
+  top: 0;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 899;
+  font-family: "Josefin Sans", sans-serif;
+}
+.top > * {
+  color: #fff;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topListItem:hover {
+  color: gray;
+}
+
+.topImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.navbar-toggler-icon {
+  border: #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+li:hover,
+.useName:hover {
+  color: #14bdad !important;
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .first {
+    order: 2;
+    display: flex;
+    align-self: flex-start;
+    margin-top: -40px;
+    margin-left: 5%;
+  }
+  .second {
+    order: 3;
+    margin-top: 10px;
+  }
+  .third {
+    order: 1;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 576px) {
+  .topCenter .topListItem {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 386px) {
+  .topCenter .topListItem {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,137 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprPOEuRMb_cNsSO7fO8g4nPkN2yxroD5Xi98-K88onqScS73f_PqsXK4uKhDlyclAE4c&usqp=CAU");
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 35px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.loginTitle::after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid rgb(150, 149, 149);
+  width: 27%;
+  bottom: 0;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+  margin-left: -110px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #14bdad;
+  color: white;
+  padding: 10px 2px;
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
+.loginButton:hover {
+  background-color: #000;
+  color: white;
+}
+.loginButton.disable {
+  cursor: not-allowed;
+  background-color: rgb(158, 158, 158);
+}
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.input-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  background-color: rgb(248, 248, 248);
+  width: 90%;
+  align-self: center;
+}
+.icon {
+  color: #777;
+  display: flex;
+  align-items: center;
+  margin-left: -105px;
+}
+.loginLink1 {
+  width: 90%;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+  color: #777;
+}
+.loginLink2 {
+  color: #14bdad;
+  margin-left: 6px;
+  font-weight: 600;
+}
+@media (max-width: 1333px) {
+  .backForm {
+    height: 70%;
+    width: 45%;
+  }
+}
+@media (max-width: 992px) {
+  .backForm {
+    height: 70%;
+    width: 80%;
+  }
+}
+@media (max-width: 573px) {
+  .backForm {
+    height: 73%;
+    width: 85%;
+  }
+  .loginTitle {
+    font-size: 28px;
+  }
+  .input-div {
+    width: 100%;
+  }
+  .loginInput {
+    margin-left: 0px;
+  }
+  .icon {
+    margin-left: 0px;
+  }
+}
