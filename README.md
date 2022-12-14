@@ -12,3 +12,10 @@
 
 BlogLife is a new social blogging platform where anybody can share their views and read other's opinion related to any topic. It is a way to connect with people and to know how the world is thinking.
 BlogLife is created using the MongoDB, Express, React and NodeJS (MERN Stack).
+
+
+
+## Built With
+
+- [Node.JS](http://nodejs.org/) - Node.JS is used in the backend.
+- [React.JS](https://reactjs.org/) -Frontend library used in the project.
