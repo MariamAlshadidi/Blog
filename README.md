@@ -16,11 +16,13 @@ BlogLife is created using the MongoDB, Express, React and NodeJS (MERN Stack).
 
 
 ## Built With
-
+```
 - [Node.JS](http://nodejs.org/) - Node.JS is used in the backend.
 - [React.JS](https://reactjs.org/) -Frontend library used in the project.
 - [MongoDB ](https://www.mongodb.com/home) -Database to store document-based data.
 - [Express ](https://expressjs.com/) -back end web application framework.
+
+```
 
 ## Env Variables
 
@@ -29,4 +31,21 @@ Create a .env file in then root and add the following
 NODE_ENV = development
 PORT = 5000
 MONGO_URI = your mongodb uri
+```
+
+### Install Dependencies (frontend & backend)
+```
+npm install
+cd frontend
+npm install
+```
+
+### Run
+
+```
+# Run frontend (:3000) & backend (:5000)
+npm run dev
+
+# Run backend only
+npm run server
 ```
